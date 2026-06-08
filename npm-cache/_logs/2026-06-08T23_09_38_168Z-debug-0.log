@@ -1,0 +1,83 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.11.1
+3 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Vitor_Tec\Projeto_Pokedex\pokedex-typescript-lite\.npmrc
+5 silly config load:file:C:\Users\Usuário\.npmrc
+6 silly config load:file:C:\Users\Usuário\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:D:\Vitor_Tec\Projeto_Pokedex\pokedex-typescript-lite\npm-cache\_logs\2026-06-08T23_09_38_168Z-
+10 verbose logfile D:\Vitor_Tec\Projeto_Pokedex\pokedex-typescript-lite\npm-cache\_logs\2026-06-08T23_09_38_168Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@esbuild/aix-ppc64': [ '0.28.0' ],
+15 silly audit   '@esbuild/android-arm': [ '0.28.0' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/android-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.28.0' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/netbsd-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/openbsd-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/openharmony-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.28.0' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.28.0' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.28.0' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.28.0' ],
+15 silly audit   '@types/node': [ '20.19.42' ],
+15 silly audit   esbuild: [ '0.28.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   tsx: [ '4.22.4' ],
+15 silly audit   typescript: [ '5.9.3' ],
+15 silly audit   'undici-types': [ '6.21.0' ]
+15 silly audit }
+16 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 1ms (cache hit)
+17 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+18 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz 0ms (cache hit)
+19 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.22.4.tgz 0ms (cache hit)
+20 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.42.tgz 0ms (cache hit)
+21 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.0.tgz 0ms (cache hit)
+22 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz. Extracting by manifest.
+23 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+24 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz. Extracting by manifest.
+25 silly tarball no local data for tsx@https://registry.npmjs.org/tsx/-/tsx-4.22.4.tgz. Extracting by manifest.
+26 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.19.42.tgz. Extracting by manifest.
+27 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.0.tgz. Extracting by manifest.
+28 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 893ms
+29 silly audit report {}
+30 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz 1000ms (cache miss)
+31 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz 1248ms (cache miss)
+32 http fetch GET 200 https://registry.npmjs.org/tsx/-/tsx-4.22.4.tgz 3215ms (cache miss)
+33 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.0.tgz 3266ms (cache miss)
+34 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.19.42.tgz 4693ms (cache miss)
+35 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 5376ms (cache miss)
+36 info run esbuild@0.28.0 postinstall node_modules/esbuild node install.js
+37 info run esbuild@0.28.0 postinstall { code: 0, signal: null }
+38 silly ADD node_modules/undici-types
+39 silly ADD node_modules/typescript
+40 silly ADD node_modules/tsx
+41 silly ADD node_modules/esbuild
+42 silly ADD node_modules/@types/node
+43 silly ADD node_modules/@esbuild/win32-x64
+44 verbose cwd D:\Vitor_Tec\Projeto_Pokedex\pokedex-typescript-lite
+45 verbose os Windows_NT 10.0.26200
+46 verbose node v24.11.1
+47 verbose npm  v11.12.1
+48 verbose exit 0
+49 info ok
