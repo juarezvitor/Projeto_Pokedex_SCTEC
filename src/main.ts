@@ -1,6 +1,6 @@
 // ============================================================
 // src/main.ts
-// Ponto de entrada da aplicação Pokédex TypeScript Lite.
+// Ponto de entrada da aplicação
 // Instancia os serviços, injeta dependências e demonstra o fluxo completo.
 // ============================================================
 
